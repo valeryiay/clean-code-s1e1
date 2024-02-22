@@ -32,13 +32,13 @@ body {
   margin: 0 auto 0;
 }
 
-.task-input {
+.task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
 
-.task-input-wrapper {
+.task-wrapper {
   display: flex;
 }
 
@@ -140,18 +140,18 @@ li>input[type="text"] {
   width: 226px
 }
 
-button.remove-task-button img {
+button.remove-btn img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.remove-task-button img:hover {
+button.remove-btn img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks-list label {
+ul#completed-tasks label {
   text-decoration: line-through color: #888;
 }
 
